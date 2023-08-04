@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    background-color: #0F0F0F;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+}
+
+#outer-box-h1 {
+    position: fixed;
+    font-size: 100px;
+    top: 300px;
+    left: 20px;
+}
+
+#outer-box-h3 {
+    position: fixed;
+    font-size: 30px;
+    top: 430px;
+    left: 30px;
+}
+
+#outer-box-div {
+    height: 50px;
+    position: fixed;
+    border: 0.5px solid white;
+    top: 430px;
+    left: 20px;
+}
+
+.inner-box {
+    width: 400px;
+    position: relative;
+    top: 40%;
+    left: 60%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background: linear-gradient(to top, rgba(191, 191, 191, 0.31), rgba(0, 0, 0, 0));
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+    border: 0.1px solid rgba(175, 175, 175, 1);
+    box-shadow: 8px 4px 5px rgba(0, 0, 0, 0.24);
+    z-index: 2;
+}
+
+.signup-header h1 {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.signup-header p {
+    font-size: 0.9rem;
+    color: #b4b4b4;
+    text-align: center;
+}
+
+.signup-body {
+    margin: 20px 0;
+}
+
+.signup-body p {
+    margin: 10px 0;
+}
+
+.signup-body p label {
+    display: block;
+    font-weight: bold;
+}
+
+.signup-body p input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.signup-body p input[type="submit"] {
+    background: linear-gradient(to right, rgba(98, 142, 255, 1), rgba(135, 64, 205, 1), rgba(88, 4, 117, 1));
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.signup-body p input[type="submit"]:hover {
+    background: linear-gradient(to right, rgb(87, 126, 227), rgb(122, 57, 186), rgb(69, 3, 91));
+}
+
+.signup-footer p {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.signup-footer p a {
+    color: rgb(87, 126, 227);
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to top, rgba(13, 10, 48, 1), rgba(83, 0, 97, 1));
+    position: absolute;
+}
+
+.c1 {
+    top: 10px;
+    left: 790px;
+}
+
+.c2 {
+    bottom: 100px;
+    right: 80px;
+}
+
+/* Media Query for width <=1024 */
+
+@media screen and (max-width: 1024px) {
+    .outer-box {
+        width: 100.5vw;
+        height: 102vh;
+    }
+
+    #outer-box-h1 {
+        visibility: hidden;
+    }
+
+    #outer-box-div {
+        visibility: hidden;
+    }
+
+    #outer-box-h3 {
+        visibility: hidden;
+    }
+
+    .inner-box {
+        top: 50%;
+        left: 10%;
+        width: 364px;
+    }
+
+    .c1 {
+        top: 146px;
+        left: -66px;
+    }
+
+    .c2 {
+        top: 592px;
+        right: 0px;
+    }
+}

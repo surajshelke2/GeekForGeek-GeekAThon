@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympic</title>
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="assets/favicon.ico">
+    <link rel="stylesheet" href="style_players.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="https://kit.fontawesome.com/cb5ad846e6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="hero">
+        <nav class=" nav-section flex">
+            <a href="index.html"><div class="logo">
+                <img src="PlayersPic/logo.png" alt="logo">
+            </div></a>
+
+            <ul class="links flex">
+                <li class="link"><strong><a href="index.html">Home</a></strong></li>
+                <li class="link"><strong><a href="#Home">Athletes</a></strong></li>
+                <li class="link"><strong><a href="index_social.html">Blog</a></strong></li>
+                <li class="link"><strong><a href="index_Ticket.html">Ticket Booking</a></strong></li>
+            </ul>
+        </nav>
+
+        <header class="headline-section flex">
+            <div class="heading">
+                <img src="PlayersPic/background_text.png">
+            </div>
+        </header>
+
+        <div class="Search-section flex">
+            <div class="search-input">
+                <input type="text" placeholder="Information about 2023 olympic">
+            </div>
+            <div class=" search-text-div "></div>
+            <div class="search-text ">Search</div>
+
+        </div>
+
+
+
+
+        <div class="athlets">
+            <div class="card" data-name="c-1">
+                <img src="PlayersPic/plr1jpg.jpg" onclick="toggleDiv1()">
+                <p>YUTO HORIGOME</p>
+                <p>JPN,SKATEBOARDING</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr2.jpg" onclick="toggleDiv2()">
+                <p>RAYSSA LEAL</p>
+                <p>BRA,SKATEBOARDING</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr3.jpg" onclick="toggleDiv3()">
+                <p>KATIE LEDECKY</p>
+                <p>USA,SWIMMING</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr4.jpg" onclick="toggleDiv4()">
+                <p>KRISTOF MILAK</p>
+                <p>HUN,SWIMMING</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr5.jpg" onclick="toggleDiv5()">
+                <p>KAYLEE MCKEOWN</p>
+                <p>AUS,SWIMMING</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr6.jpg" onclick="toggleDiv6()">
+                <p>CAELEB DRESSEL</p>
+                <p>USA SWIMMING</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr7.jpg" onclick="toggleDiv7()">
+                <p>FLORA DUFFY</p>
+                <p>BER,TRIATHLON</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr8.jpg" onclick="toggleDiv8()">
+                <p>NEERAJ CHOPRA</p>
+                <p>IND,ATHLETICS</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr9.jpg" onclick="toggleDiv9()">
+                <p>ARMAND DUPLANTIS</p>
+                <p>SWE,ATHLETICS</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr10.jpg" onclick="toggleDiv10()">
+                <p>SHELLY-ANN FRASER-PRYCE</p>
+                <p>JAM,ATHLETICS</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr11.jpg" onclick="toggleDiv11()">
+                <p>WINFRED MUTILE YAVI</p>
+                <p>BRN,ATHLETICS</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr12.jpg" onclick="toggleDiv12()">
+                <p>YAROSLAVA MAHUCHIKH</p>
+                <p>UKR,ATHLETICS</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr13.jpg" onclick="toggleDiv13()">
+                <p>YULIMAR ROJAS</p>
+                <p>VEN,ATHLETICS</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr14.jpg" onclick="toggleDiv14()">
+                <p>CARLOS YULO</p>
+                <p>PHI,ARTISTIC GYMN...</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr15.jpg" onclick="toggleDiv15()">
+                <p>P.V.SINDHU</p>
+                <p>IND,BADMINTON</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr16.jpg" onclick="toggleDiv16()">
+                <p>ALAA MASO</p>
+                <p>EOR,SWIMMING</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr17.jpg" onclick="toggleDiv17()">
+                <p>SERENA WILLIAMS</p>
+                <p>USA,TENNIS</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr18.jpg" onclick="toggleDiv18()">
+                <p>ELIN RUBENSSON</p>
+                <p>SWE,FOOTBALL</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr19.jpg" onclick="toggleDiv19()">
+                <p>CARISSA MOORE</p>
+                <p>USA,SURFING</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr20.jpg" onclick="toggleDiv20()">
+                <p>FILIPE TOLEDO</p>
+                <p>BRA,SURFING</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr21.jpg" onclick="toggleDiv21()">
+                <p>TOMOA NARASAKI</p>
+                <p>JPN,SPORT CLIMBING</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr22.jpg" onclick="toggleDiv22()">
+                <p>NATALIA GROSSMAN</p>
+                <p>USA,SPORT CLIMBING</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr23.jpg" onclick="toggleDiv23()">
+                <p>TADEJ POGACAR</p>
+                <p>SLO,CYCLING ROAD</p>
+            </div>
+            <div class="card">
+                <img src="PlayersPic/plr24.jpg" onclick="toggleDiv24()">
+                <p>ELIUD KIPCHOGE</p>
+                <p>KEN,ATHLETICS</p>
+            </div>
+
+        </div>
+
+        <div class="imgpreview" id="imgpreview">
+            <div class="preview" data-target="c-1">
+                <img id="changeImage" src="PlayersPic/plr1jpg.jpg">
+                <h3 id="changeText">YUTO HORIGOME</h3>
+                <div class="containerBtn">
+                    <div class="divBtn" id="div1"></div>
+                    <div class="divBtn" id="div2"></div>
+                </div>
+                <div style="width:100%;"><canvas id="myChart"></canvas></div>
+                <div style="display: flex; align-items: center; justify-content: center;">
+                    <h4 style="border: 3px solid red; width: 50px; padding: 5px;" onclick="closePopUp()">Close</h4>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="script_players.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,236 @@
+@media screen and (max-width: 430px) {
+    .hero {
+      height: 217px;
+    }
+  
+    .hero .nav-toggle {
+      display: block;
+      margin-right: px;
+    }
+  
+    .hero .nav-section {
+      top: 10px;
+      border-radius: 0px;
+    }
+    .hero .Bars {
+      width: 20px;
+      height: 20px;
+      padding-top: 5px;
+    }
+  
+    .hero .menus {
+      display: none;
+      flex-direction: column;
+    }
+  
+    .hero .LogoImg {
+      padding-top: 5px;
+      width: 46px;
+      height: 35px;
+    }
+  
+    .hero header {
+      margin-top: 20px;
+    }
+    .hero .header-text h1  {
+      font-size: 2.0rem;
+      color: #ffffff;
+      text-shadow: 5px 5px #b5b5b528;
+    }
+  
+    .hero .horizontal-line img {
+      display: none;
+    }
+  
+    .hero .header-text h2 {
+      font-size: 1rem;
+      color: #ffffff;
+      font-weight: 500;
+    }
+  
+    .hero .search-section {
+      justify-content: center;
+      margin-top: 3%;
+    }
+    .hero .search-input input {
+      width: 200px;
+      height: 14px;
+      border: none;
+      padding-left: 15px;
+      font-size: 8px;
+      border-radius: 2px;
+      backdrop-filter: blur(1px);
+    }
+  
+    .hero .search-btn {
+      width: 40px;
+      height: 14px;
+      font-size: 8px;
+      font-weight: 500;
+      border-radius: 2px;
+    }
+    .container{
+      max-width: 427px;
+    }
+  
+    main {
+      top: 0;
+    }
+  
+    .left .sidebar {
+      margin-top: 9rem;
+    }
+  
+    .feature-button {
+      margin-top: 10px;
+    }
+  
+    .official-Tracking {
+      width: 120px;
+      height: 30px;
+      font-size: 0.7rem;
+    }
+  
+    .Hospitality-package {
+      width: 120px;
+      height: 30px;
+      font-size: 0.7rem;
+    }
+  
+    .title-section{
+      margin-top: 0px;
+    }
+  
+  
+    .title-section img{
+      width: 100%;
+    }
+
+    .sport{
+        grid-template-columns:1fr ;
+        padding: 10px 20px 0;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+      }
+
+    .footer-title{
+
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .foorter-desc{
+        text-align: justify;
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 376px) {
+  .hero {
+    height: 191px;
+  }
+
+  .hero .header-text h1 {
+    font-size: 1.6rem;
+    color: #ffffff;
+    text-shadow: 5px 5px #b5b5b528;
+  }
+  main {
+    top: 0;
+  }
+  .left .sidebar {
+    margin-top: 8rem;
+  }
+
+  .container {
+    max-width: 365px;
+  }
+  .hero .header-section {
+    margin-left: 15px;
+  }
+
+  .sport {
+    gap: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 310px;
+  }
+
+  .card{
+    height: 397px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+.card img {
+  width: 250px;
+}
+
+.foorter-desc {
+  text-align: justify;
+  font-size: 13px;
+  line-height: 33px;
+
+}
+
+.footer-title {
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.footer {
+  margin-top: 8px;
+}
+
+
+}
+
+@media screen and (max-width: 321px) {
+  .hero {
+    height: 162px;
+  }
+
+  .hero .header-text h1 {
+    font-size: 1.3rem;
+    color: #ffffff;
+    text-shadow: 5px 5px #b5b5b528;
+  }
+  main {
+    top: 0;
+  }
+  .hero .header-section {
+    margin-top: -4px;
+  }
+  .container {
+    max-width: 321px;
+  }
+
+  .left .sidebar {
+    margin-top: 6rem;
+  }
+
+  .card {
+    width: 292px;
+  }
+
+  .card .button {
+    width: 151px;
+    height: 46px;
+    /* color: rgba(0, 0, 0, 0.97); */
+    font-size: 14px;
+  }
+
+  .card .time {
+   
+    font-size: 18px;
+  }
+  .sport{
+    margin-top: -32px;
+  }
+  
+}

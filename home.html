@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympic</title>
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="assets/favicon.ico">
+    <link rel="stylesheet" href="style_home.css">
+    <link rel="stylesheet" href="responsive css/sm_res_style.css">
+
+    <script src="https://kit.fontawesome.com/cb5ad846e6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Common Header -->
+    <div class="hero">
+        <nav class="nav-section container flex">
+            <div class="website-logo">
+                <img class="LogoImg" src="images1/logo1.png" alt="home page image">
+            </div>
+
+            <div class="menus flex" id="menus">
+                <ul class="flex">
+                    <li><strong><a class="hover-menu" href="index.html">Home</a></strong></li>
+                    <li><strong><a class="hover-menu" href="index_players.html">Athletes</a></strong></li>
+                    <li><strong><a class="hover-menu" href="#home">Blog</a></strong></li>
+                    <li><strong><a class="hover-menu" href="index_Ticket.html">Ticket Booking</a></strong></li>
+                </ul>
+            </div>
+            <a href="index.html" class="nav-toggle hover-menu">
+                <img class="Bars" id="menutoggle" src="images1/menuBars.png" alt="">
+            </a>
+        </nav>
+
+        <header>
+            <div class="header-section container flex">
+                <div class="header-text flex">
+                    <h1>Fan's</h1>
+                    <h1>Collabration</h1>
+                </div>
+            </div>
+
+            <div class="search-section container flex">
+                <div class="search-input">
+                    <input type="text" placeholder="search">
+                </div>
+
+                <div class="search-text ">
+                    <input class="search-btn" type="button" name="search-btn" value="Search">
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+    <!-- Main -->
+    <main>
+        <div class="container">
+            <!-- LEFT -->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="images1/profile-1.jpg">
+                    </div>
+                    <div class="handle">
+                        <h4>Ritesh</h4>
+                        <p class="text-muted">
+                            @ritesh
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Side Bar -->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="fa-solid fa-house"></i></span>
+                        <h3>Home</h3>
+                    </a>
+
+                    <a class="menu-item">
+                        <span><i class="fa-regular fa-compass"></i></span>
+                        <h3>Explore</h3>
+                    </a>
+
+                    <a class="menu-item" id="notifications">
+                        <span><i class="fa-regular fa-bell"></i></span><small class="notification-count">9+</small>
+                        <h3>Notification</h3>
+                        <!-- Notification Pop Up -->
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images1/profile-2.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Suraj Shelke</b> accepted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images1/profile-3.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Suraj Shelke</b> accepted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images1/profile-4.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Suraj Shelke</b> accepted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images1/profile-6.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Suraj Shelke</b> accepted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images1/profile-7.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Suraj Shelke</b> accepted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END Notification Pop Up -->
+                    </a>
+
+                    <a class="menu-item">
+                        <span><i class="fa-regular fa-bookmark"></i></span>
+                        <h3>Bookmarks</h3>
+                    </a>
+                </div>
+
+                <!-- END of Sidebar -->
+                <label for="create-post" class="btn btn-primary">Create Post</label>
+            </div>
+            <!-- END of LEFT -->
+
+            <!-- MIDDLE -->
+            <div class="middle">
+
+                <!-- Create Post -->
+                <form class="create-post">
+                    <div class="profile-photo">
+                        <img src="images1/profile-1.jpg">
+                    </div>
+                    <input type="text" placeholder="What's on your mind, RItesh?" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+                <!-- End of Create Post -->
+
+                <!-- Feeds -->
+                <div class="feeds">
+                    <!-- Feed1 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images1/profile-2.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Suraj Shelke</h3>
+                                    <small>Pune, Pimpri</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images1/feed-1.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images1/profile-10.jpg" alt=""></span>
+                            <span><img src="images1/profile-4.jpg" alt=""></span>
+                            <span><img src="images1/profile-15.jpg" alt=""></span>
+                            <p>Liked by <b>Ritesh</b> and <b>200 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Suraj </b>Paris 2024 Unveils Torch</p>
+                            <span class="harsh-tag">#olympics2024</span>
+                        </div>
+                        <div class="comments text-muted">View all 150 comments</div>
+                    </div>
+                    <!-- END of Feed1 -->
+
+                    <!-- Feed2 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images1/profile-3.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Sangam Gorde</h3>
+                                    <small>Pune, Pimpri</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images1/feed-2.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images1/profile-10.jpg" alt=""></span>
+                            <span><img src="images1/profile-4.jpg" alt=""></span>
+                            <span><img src="images1/profile-15.jpg" alt=""></span>
+                            <p>Liked by <b>Suraj</b> and <b>200 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Sangam Gorde </b>Paris 2024 Olympic Torch Relay
+                            </p>
+                            <span class="harsh-tag">#olympics2024</span>
+                        </div>
+                        <div class="comments text-muted">View all 160 comments</div>
+                    </div>
+                    <!-- END of Feed2 -->
+
+                    <!-- Feed3 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images1/profile-1.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Ritesh Phadtare</h3>
+                                    <small>Pune, Pimpri</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images1/feed-3.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images1/profile-10.jpg" alt=""></span>
+                            <span><img src="images1/profile-4.jpg" alt=""></span>
+                            <span><img src="images1/profile-15.jpg" alt=""></span>
+                            <p>Liked by <b>Suraj</b> and <b>200 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Ritesh </b>GO OLYMPIC. GET ALL THIS.</p>
+                            <span class="harsh-tag">#india #olympics2024</span>
+                        </div>
+                        <div class="comments text-muted">View all 120 comments</div>
+                    </div>
+                    <!-- END of Feed3 -->
+
+                    <!-- Feed4 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images1/profile-5.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Nikita</h3>
+                                    <small>Pune, Pimpri</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images1/feed-4.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images1/profile-10.jpg" alt=""></span>
+                            <span><img src="images1/profile-4.jpg" alt=""></span>
+                            <span><img src="images1/profile-15.jpg" alt=""></span>
+                            <p>Liked by <b>Sangam</b> and <b>200 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Nikita </b>3x3 Basketball | 28 Jul - 30 Jul</p>
+                            <span class="harsh-tag">#basketball #olympics2024</span>
+                        </div>
+                        <div class="comments text-muted">View all 90 comments</div>
+                    </div>
+                    <!-- END of Feed4 -->
+
+                    <!-- Feed5 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images1/profile-6.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Nupur</h3>
+                                    <small>Pune, Pimpri</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images1/feed-5.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images1/profile-10.jpg" alt=""></span>
+                            <span><img src="images1/profile-4.jpg" alt=""></span>
+                            <span><img src="images1/profile-15.jpg" alt=""></span>
+                            <p>Liked by <b>Ritesh</b> and <b>200 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Nupur </b>Aquatics | 14 - 30 Jul</p>
+                            <span class="harsh-tag">#aquatics #olympics2024</span>
+                        </div>
+                        <div class="comments text-muted">View all 60 comments</div>
+                    </div>
+                    <!-- END of Feed5 -->
+                </div>
+                <!-- END of Feeds -->
+            </div>
+            <!-- END of MIDDLE -->
+
+            <!-- RIGHT -->
+            <div class="right-sidebar">
+                <div class="sidebar-title">
+                    <h4>Events</h4>
+                    <a href="index5.html">See All</a>
+                </div>
+
+                <div class="event">
+                    <div class="left-event">
+                        <h3>24</h3>
+                        <span>July</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>MARSEILLE</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Paris</p>
+                        <a href="index5.html">More Info</a>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="left-event">
+                        <h3>24</h3>
+                        <span>July</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>LILLE</h4>
+
+                        <p> <i class="fas fa-map-marker-alt"></i> Paris</p>
+                        <a href="index5.html">More Info</a>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="left-event">
+                        <h3>28</h3>
+                        <span>July</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>NICE</h4>
+
+                        <p> <i class="fas fa-map-marker-alt"></i> Paris</p>
+                        <a href="index5.html">More Info</a>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="left-event">
+                        <h3>28</h3>
+                        <span>July</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>BORDEAUX</h4>
+
+                        <p> <i class="fas fa-map-marker-alt"></i> Paris</p>
+                        <a href="index5.html">More Info</a>
+                    </div>
+                </div>
+            </div>
+            <!-- END of RIGHT -->
+        </div>
+    </main>
+    <script src="script_social.js"></script>
+</body>
+
+</html>

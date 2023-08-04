@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympic</title>
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="assets/favicon.ico">
+    <link rel="stylesheet" href="style_ticket.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <!-- div dection which handels the header section / content -->
+
+    <div class="hero">
+        <nav class="nav-section container flex">
+            <div class="website-logo">
+                <img class="LogoImg" src="assets/logo.png" alt="home page image">
+            </div>
+
+            <div class="menus">
+                <ul class="flex">
+                    <li><strong><a class="hover-menu" href="index.html">Home</a></strong></li>
+                    <li><strong><a class="hover-menu" href="index_players.html">Athletes</a></strong></li>
+                    <li><strong><a class="hover-menu" href="login.html">Blog</a></strong></li>
+                    <li><strong><a class="hover-menu" href="index_Ticket.html">Ticket Booking</a></strong></li>
+                </ul>
+            </div>
+            <a href="index.html" class="nav-toggle hover-menu">
+                <img class="Bars" src="assets2/menuBars.png" alt="">
+            </a>
+        </nav>
+
+        <header>
+            <div class="header-section container flex">
+                <div class="header-text flex">
+                    <h1>Ready</h1>
+                    <h1>For Advanture</h1>
+                </div>
+            </div>
+
+            <div class="search-section container flex">
+                <div class="search-input">
+                    <input type="text" placeholder="search">
+                </div>
+
+                <div class="search-text ">
+                    <input class="search-btn" type="button" name="search-btn" value="Search">
+                </div>
+            </div>
+
+            <!-- <div class="feature-button flex">
+                <div class="official-Tracking flex "><strong>Official Tracking</strong></div>
+                <div class="Hospitality-package flex "><strong>Hospitality Package</strong></div>
+            </div> -->
+        </header>
+    </div>
+
+    <div class="title-section flex container">
+        <img src="./assets/Title1.png" alt="title-logo">
+
+    </div>
+
+    <div class="sport-section container">
+
+        <div class="box " id="box1"><img src="./assets/pic1.png"></div>
+        <div class="box"><img src="./assets/pic2.png"></div>
+        <div class="box"><img src="./assets/pic3.png"></div>
+        <div class="box" id="box4"><img src="./assets/newpic.png"></div>
+        <!-- <div class="box flex" id="box5"><img src="./assets/pic4.png"></div> -->
+
+    </div>
+
+
+    <div class="offical-tracking-section container">
+        <div class="upbg"><img src="./assets/background.png" alt=""></div>
+        <div class="offical-tracking-section-text"><span id="span1">PARIS 2</span><span id="span2">024 Games </span><span id="span3">Official </span>
+            <span id="span4">Ticketing</span>
+        </div>
+       <div class="offical-btn flex" onclick="goTONext()">Offical Tracking</div>
+
+        <div class="down-text">Visit the official Paris 2024 Games ticketing website to get all the information you need about Olympic and Paralympic tickets.<br/></div>
+    </div>
+
+    <div class="hospitality-pakage-section container">
+        <div class="hospitality-pakage" ></div>
+        <div class="hospitality-pakage-heading ">Hospitality packages
+            <br> now on sale</div>
+
+        <div class="hospitality-pakage-description ">Choose your hospitality experiences and take your Paris 2024 trip to the next level!Use your @Visa, the Official Way to Pay.<br/></div>
+
+        <div class="hospitality-btn flex " style="z-index: 50;" onclick="goTONext()"><strong>Hospitality Packages</strong></div>
+        <div class="ground-shadow " style="width: 1188px; height: 288px; background: linear-gradient(180deg, rgba(255, 255, 255, 0) 2%, rgba(0, 0, 0, 0.50) 66%)"></div>
+
+        <div class="for-example container">
+            <div class="ground-img container flex">
+                <img class="a1" src="./assets/gd1.png" />
+                <img class="a1" src=" ./assets/gd2.png " />
+                <img class="a1" src="./assets/gd3.png " />
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        
+        function goTONext() {
+            window.location.href = "index5.html";
+        }
+      </script>
+
+</body>
+
+</html>

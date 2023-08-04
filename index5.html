@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympic</title>
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="assets/favicon.ico">
+    <link rel="stylesheet" href="style2_ticket.css">
+    <link rel="stylesheet" href="media.css">
+
+</head>
+
+<body>
+
+    <!-- div dection which handels the header section / content -->
+    <div class="hero">
+        <nav class="nav-section container flex">
+            <div class="website-logo">
+                <img class="LogoImg" src="assets/logo.png" alt="home page image">
+            </div>
+
+            <div class="menus">
+                <ul class="flex">
+                    <li><strong><a class="hover-menu" href="index.html">Home</a></strong></li>
+                    <li><strong><a class="hover-menu" href="#home">Athletes</a></strong></li>
+                    <li><strong><a class="hover-menu" href="login.html">Blog</a></strong></li>
+                    <li><strong><a class="hover-menu" href="index_Ticket.html">Ticket
+                                Booking</a></strong></li>
+                </ul>
+            </div>
+            <a href="#" class="nav-toggle hover-menu">
+                <img class="Bars" src="assets2/menuBars.png" alt>
+            </a>
+        </nav>
+
+        <header>
+            <div class="header-section container flex">
+                <div class="header-text flex">
+                    <h1>Paris 2024:</h1>
+                    <h1>Olympic Excellence</h1>
+                </div>
+            </div>
+
+            <div class="search-section container flex">
+                <div class="search-input">
+                    <input type="text" placeholder="search">
+                </div>
+
+                <div class="search-text ">
+                    <input class="search-btn" type="button" name="search-btn" value="Search">
+                </div>
+            </div>
+
+            <!-- <div class="feature-button flex">
+                <div class="official-Tracking flex "><strong>Official Tracking</strong></div>
+                <div class="Hospitality-package flex "><strong>Hospitality Package</strong></div>
+            </div> -->
+        </header>
+    </div>
+
+    <div class="title-section flex container">
+        <img src="./assets/book3title.png" alt="title-logo">
+
+    </div>
+
+    <div class="sport container "
+        style="background-image: url(./assets/check.png); background-repeat: no-repeat; background-size: cover;">
+        <div class="card">
+            <img src="./assets/sport1.png" alt>
+            <div class="time">Form 24.07 to 06.08</div>
+            <div class="button" onclick="togglePopup1(this)">From €24</div>
+        </div>
+
+        <div class="card">
+            <img src="./assets/sport2.png" alt>
+            <div class="time">Form 24.07 to 06.08</div>
+            <div class="button" onclick="togglePopup2(this)">From €50</div>
+        </div>
+
+        <div class="card">
+            <img src="./assets/sport4.png" alt>
+            <div class="time">Form 24.07 to 06.08</div>
+            <div class="button" onclick="togglePopup3(this)">From €24</div>
+        </div>
+
+        <div class="card">
+            <img src="./assets/sport3.png" alt>
+            <div class="time">Form 24.07 to 06.08</div>
+            <div class="button" onclick="togglePopup4(this)">From €50</div>
+        </div>
+
+    </div>
+
+    <div id="overlay"></div>
+    <div id="popup1" style="display: none;">
+        <div class="popup-content1 universal-popUp">
+            <h2>Your Ticket</h2>
+            <p>Event Name: Example Concert</p>
+            <p>Date: July 31, 2023</p>
+            <p>Time: 7:00 PM</p>
+            <p>Seat: Section A, Row 3, Seat 10</p>
+            <button onclick="closePopup1()">Close</button>
+        </div>
+    </div>
+
+
+    <div id="popup2" style="display: none;">
+        <div class="popup-content2 universal-popUp">
+            <h2>Your Ticket</h2>
+            <p>Event Name: Example Concert</p>
+            <p>Date: July 31, 2023</p>
+            <p>Time: 7:00 PM</p>
+            <p>Seat: Section A, Row 3, Seat 10</p>
+            <button onclick="closePopup2()">Close</button>
+        </div>
+    </div>
+
+
+    <div id="popup3" style="display: none;">
+        <div class="popup-content3 universal-popUp">
+            <h2>Your Ticket</h2>
+            <p>Event Name: Example Concert</p>
+            <p>Date: July 31, 2023</p>
+            <p>Time</p>
+            <p>Seat: Section A, Row 3, Seat 10</p>
+            <button onclick="closePopup3()">Close</button>
+        </div>
+    </div>
+
+
+    <div id="popup4" style="display: none;">
+        <div class="popup-content4 universal-popUp">
+            <h2>Your Ticket</h2>
+            <p>Event Name: Example Concert</p>
+            <p>Date: July 31, 2023</p>
+            <p>Time: 7:00 PM</p>
+            <p>Seat: Section A, Row 3, Seat 10</p>
+            <button onclick="closePopup4()">Close</button>
+        </div>
+    </div>
+
+    <footer class=" footer container flex">
+        <div class="footer-title">Buy Only From Official Sources</div>
+        <div class="foorter-desc">By buying tickets or hospitality packages
+            outside the official channels, the buyer runs the risk that
+            tickets or packages are not delivered to them or the access will
+            be denied by the Paris 2024 Organizing Committee in accordance
+            with the terms and conditions. In addition, all buyers are
+            informed that unauthorized sale or re-sale of tickets outside
+            the official channels, constitutes an offense under French law.</div>
+    </footer>
+
+    <div style="height: 100px;"></div>
+    <script src="script_ticket.js"></script>
+</body>
+
+</html>
